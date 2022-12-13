@@ -1,0 +1,259 @@
+@import "./common";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px;
+    background: #d49b31;    
+}
+
+.bowl {
+    width: 1205px;
+    height: 750px;
+    background: #e9b047;
+    background-image: url("../img/map.jpg");
+    margin: 0 auto;
+    border: 5px dashed black;
+}
+
+.north {
+    display: flex;
+    &__west {
+        color: white;
+        font-family: sans-serif;
+        width: 400px;
+        height: 370px;
+        /*opacity: 0.749;*/
+        background-color: rgba(0, 54, 99,0.749);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        &__west-header {
+            margin: 10px auto;
+            text-align: center;
+        }
+            &__west-shade {
+                width: 320px;
+                height: 270px;
+                margin: 30px;
+                /*opacity: 0.341;*/
+                background-color: rgba(42, 42, 42,0.341);
+            }
+                .north__west-shade h3 {
+                    margin: 20px;
+                }
+                .north__west-country {
+                    display: flex;
+                    align-items: center;
+                }
+                    .north__west-country img {
+                        margin: 10px;
+                    }
+                    .north__west-country h1 {
+                        margin-left: 20px;
+                    }
+                .north__west-flags {
+                    display: flex;
+                    align-items: center;
+                    margin: 10px 20px;
+                }
+                    .north__west-flags p {
+                        margin-left: 10px;
+                    }
+//----------------------------------------------------------//
+    .north__central {
+        color: white;
+        font-family: sans-serif;
+        width: 400px;
+        height: 370px;
+        /*opacity: 0.749;*/
+        background-color: rgba(99, 4, 96,0.749);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .north__central-header {
+            margin: 10px auto;
+            text-align: center;
+        }
+            .north__central-shade {
+                width: 320px;
+                height: 270px;
+                margin: 30px;
+                /*opacity: 0.341;*/
+                background-color: rgba(42, 42, 42,0.341);
+            }
+                .north__central-shade h3 {
+                    margin: 20px;
+                }
+                .north__central-country {
+                    display: flex;
+                    align-items: center;
+                }
+                    .north__central-country img {
+                        margin: 10px;
+                    }
+                    .north__central-country h1 {
+                        margin-left: 20px;
+                    }
+                .north__central-flags {
+                    display: flex;
+                    align-items: center;
+                    margin: 10px 20px;
+                }
+                    .north__central-flags p {
+                        margin-left: 10px;
+                    }    
+//----------------------------------------------------------//
+    .north__east {
+        color: white;
+        font-family: sans-serif;
+        width: 400px;
+        height: 370px;
+        /*opacity: 0.749;*/
+        background-color: rgba(158, 11, 15,0.749);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .north__east-header {
+            margin: 10px auto;
+            text-align: center;
+        }
+            .north__east-shade {
+                width: 320px;
+                height: 270px;
+                margin: 30px;
+                /*opacity: 0.341;*/
+                background-color: rgba(42, 42, 42,0.341);
+            }
+                .north__east-shade h3 {
+                    margin: 20px;
+                }
+                .north__east-country {
+                    display: flex;
+                    align-items: center;
+                }
+                    .north__east-country img {
+                        margin: 10px;
+                    }
+                    .north__east-country h1 {
+                        margin-left: 20px;
+                    }
+                .north__east-flags {
+                    display: flex;
+                    align-items: center;
+                    margin: 10px 20px;
+                }
+                    .north__east-flags p {
+                        margin-left: 10px;
+                    } 
+}
+
+.south {
+    display: flex;
+    .south__west {
+        color: white;
+        font-family: sans-serif;
+        width: 400px;
+        height: 370px;
+        /*opacity: 0.749;*/
+        background-color: rgba(0, 54, 99,0.749);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+//----------------------------------------------------------//
+    .south__central {
+        color: white;
+        font-family: sans-serif;
+        width: 400px;
+        height: 370px;
+        /*opacity: 0.749;*/
+        background-color: rgba(255, 242, 0,0.749); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .south__central-header {
+            margin: 10px auto;
+            text-align: center;
+        }
+            .south__central-shade {
+                width: 320px;
+                height: 270px;
+                margin: 30px;
+                /*opacity: 0.341;*/
+                background-color: rgba(42, 42, 42,0.341);
+            }
+                .south__central-shade h3 {
+                    margin: 20px;
+                }
+                .south__central-country {
+                    display: flex;
+                    align-items: center;
+                }
+                    .south__central-country img {
+                        margin: 10px;
+                    }
+                    .south__central-country h1 {
+                        margin-left: 20px;
+                    }
+                .south__central-flags {
+                    display: flex;
+                    align-items: center;
+                    margin: 10px 20px;
+                }
+                    .south__central-flags p {
+                        margin-left: 10px;
+                    } 
+//----------------------------------------------------------//
+    .south__east {
+        color: white;
+        font-family: sans-serif;
+        width: 400px;
+        height: 370px;
+        /*opacity: 0.749;*/
+        background-color: rgba(247, 148, 29,0.749); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .south__east-header {
+            margin: 10px auto;
+            text-align: center;
+        }
+            .south__east-shade {
+                width: 320px;
+                height: 270px;
+                margin: 30px;
+                /*opacity: 0.341;*/
+                background-color: rgba(42, 42, 42,0.341);
+            }
+                .south__east-shade h3 {
+                    margin: 20px;
+                }
+                .south__east-country {
+                    display: flex;
+                    align-items: center;
+                }
+                    .south__east-country img {
+                        margin: 10px;
+                    }
+                    .south__east-country h1 {
+                        margin-left: 20px;
+                    }
+                .south__east-flags {
+                    display: flex;
+                    align-items: center;
+                    margin: 10px 20px;
+                }
+                    .south__east-flags p {
+                        margin-left: 10px;
+                    } 
+}
